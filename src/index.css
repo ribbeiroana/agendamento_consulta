@@ -8,6 +8,7 @@
 }
 
 body {
+  background-color: #d9d9d9;
   font-family: "Poppins", serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

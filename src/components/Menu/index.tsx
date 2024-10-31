@@ -9,7 +9,7 @@ const Menu = () => {
     <div className="menu">
 
       <div className="menu-soon">
-        <img src="#" alt="soon" />
+        <img src="#" alt="logo" />
       </div>
 
       <nav className="menu-items">
