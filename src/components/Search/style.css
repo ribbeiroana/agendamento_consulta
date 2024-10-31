@@ -1,0 +1,14 @@
+.input-search {
+  padding: 5px;
+  width: 300px;
+  border: none;
+  outline: none;
+  box-shadow: 10px 10px 9px -8px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 9px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 9px -8px rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+}
+
+.icon {
+  margin-left: -35px;
+}

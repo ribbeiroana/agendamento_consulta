@@ -1,0 +1,42 @@
+.menu {
+  background: #ffff;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 2;
+  width: 150px;
+}
+
+.menu-soon {
+  margin-top: 1rem;
+}
+
+.menu-items {
+  display: flex;
+  margin-top: -320%;
+}
+
+ul li {
+  list-style: none;
+}
+
+.menu-button {
+  padding: 8px;
+  width: 100px;
+  border: none;
+  color: #ffff;
+  background-color: black;
+  border-radius: 20px;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.menu-button:hover {
+  background-color: #d9d9d9;
+  color: black;
+}
