@@ -6,12 +6,16 @@ import { useState } from 'react'
 // import Agenda from './pages/agenda'
 // import Horario from './pages/horarios'
 // import Perfil from './pages/perfil'
-import Consultas from './pages/consultas'
+// import Consultas from './pages/consultas'
+// import HomeProfessional from './pages/homeProfessional'
+import NovaConsulta from './pages/novaConsulta'
 function App() {
 
   return (
     <>
-    <Consultas />
+    <NovaConsulta />
+    {/* <HomeProfessional /> */}
+    {/* <Consultas /> */}
     {/* <Perfil /> */}
     {/* <Horario /> */}
     {/* <Agenda /> */}

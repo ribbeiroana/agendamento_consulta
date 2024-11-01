@@ -11,9 +11,9 @@
 
 .card-small {
   background-color: #fff;
-  height: 200px;
-  width: 200px;
-  margin: 0 0 0 50px;
+  height: 100px;
+  width: 300px;
+  margin: 10px 0 0 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -27,29 +27,33 @@
 .title-card-small {
   font-size: 40px;
 }
-.card-average {
+
+.card-big {
   background-color: #fff;
-  height: 270px;
-  width: 700px;
-  margin: 20px 200px 0 0;
+  height: 400px;
+  margin: 0 200px 0 0;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  justify-content: left;
   border-radius: 30px;
   box-shadow: 10px 10px 9px -8px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 10px 10px 9px -8px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 10px 9px -8px rgba(0, 0, 0, 0.75);
 }
 
-.card-big {
-  background-color: #fff;
-  height: 300px;
-  margin: 0 200px 0 0;
+.card-small-gray {
+  background-color: #D9D9D9;
+  height: 200px;
+  width: 300px;
+  margin: 20px 0 20px 50px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
   border-radius: 30px;
   box-shadow: 10px 10px 9px -8px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 10px 10px 9px -8px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 10px 9px -8px rgba(0, 0, 0, 0.75);
+}
+
+.title-card-smal-gray {
+  margin: 20px;
 }

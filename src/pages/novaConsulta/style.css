@@ -1,0 +1,52 @@
+.card-average {
+  background-color: #fff;
+  height: 270px;
+  width: 700px;
+  margin: 20px 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  box-shadow: 10px 10px 9px -8px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 9px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 9px -8px rgba(0, 0, 0, 0.75);
+}
+
+.card-big {
+  background-color: #fff;
+  height: 300px;
+  margin: 0 200px 0 0;
+  display: flex;
+  border-radius: 30px;
+  box-shadow: 10px 10px 9px -8px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 9px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 9px -8px rgba(0, 0, 0, 0.75);
+}
+
+input {
+  background-color: #d9d9d9;
+  border-radius: 20px;
+  padding: 8px;
+  border: none;
+  outline: none;
+  display: flex;
+  margin: 20px 15px 0 15px;
+}
+
+.button-toSchedule {
+  padding: 8px;
+  width: 200px;
+  border: none;
+  color: #ffff;
+  margin: 1rem 0 0 1rem;
+  text-align: center;
+  background-color: black;
+  border-radius: 10px;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.button-toSchedule:hover {
+  background-color: #fff;
+  color: black;
+}

@@ -6,7 +6,7 @@ const Search = () => {
   return (
     <>
       <input className='input-search' type="search" placeholder='Search' />
-      <CiSearch className='icon' />
+      {/* <CiSearch className='icon' /> */}
     </>
   )
 }

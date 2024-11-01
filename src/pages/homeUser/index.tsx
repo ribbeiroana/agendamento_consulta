@@ -8,8 +8,12 @@ const HomeUser = () => {
     <div className="container">
       <Menu />
       <Search />
+      <h2>Olá</h2>
       <div className="container-content">
-        <div className="card-small"></div>
+        <div className="card-small">
+          <h3 className='title-card-small'>12</h3>
+          <p>Agendamentos</p>
+        </div>
         <div className="card-average"></div>
       </div>
       <div className="card-big"></div>

@@ -9,12 +9,12 @@ const Consultas = () => {
       <Menu />
       <div className="container-content">
         <div className="card-small">
-          <FaPlusCircle />
-          <h4>agendar nova consulta</h4>
+          <FaPlusCircle className='icon' />
+          <h4 className='text-card-small'>Agendar nova consulta</h4>
         </div>
       </div>
       <div className="card-big">
-        <h3>Histórico de Consultas</h3>
+        <h3 className='titulo-card-big'>Histórico de Consultas</h3>
       </div>
     </div>
   )
