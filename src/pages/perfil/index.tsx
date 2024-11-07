@@ -1,21 +1,14 @@
 import React from 'react';
-import './style.css'
+import { Container, Input } from './style';
 import Menu from '../../components/Menu';
+import CardBig from '../../components/CardBig';
 
 const Perfil = () => {
   return (
-    <div className="container">
+    <Container>
       <Menu />
-      <h1>Perfil</h1>
-      <div className="circule"></div>
-      <div className="card-big">
-        <input type="text"/>
-        <input type="text"/>
-        <input type="text"/>
-        <input type="text"/>
-        <input type="text"/>
-      </div>
-    </div>
+      <CardBig/>
+    </Container>
   )
 }
 

@@ -4,7 +4,7 @@ import { FaUser, FaUserCheck, FaHome, FaPhone } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { FaWeightScale } from "react-icons/fa6";
 
-const CadastroForm = () => {
+const CadastroProfissional = () => {
   return (
       <div className='wrapper'>
         <form>
@@ -47,9 +47,9 @@ const CadastroForm = () => {
             <FaUserCheck className='icon'/>
           </div>
           <div className="input-box">
-            <input type="tel" placeholder='Peso' required/>
-            <FaWeightScale className='icon' />
-          </div>
+            <input type="password" placeholder='Especialização' required/>
+            <FaUserCheck className='icon'/>
+          </div>  
           <div className="input-box">
             <input type="tel" placeholder='Senha' required/>
             <FaUser className='icon' />
@@ -61,4 +61,4 @@ const CadastroForm = () => {
   )
 }
 
-export default CadastroForm;
+export default CadastroProfissional;

@@ -1,4 +1,7 @@
-.menu {
+import styled from 'styled-components';
+
+
+export const Header = styled.div`
   background: #ffff;
   position: fixed;
   top: 0;
@@ -10,22 +13,23 @@
   justify-content: space-between;
   z-index: 2;
   width: 150px;
-}
+`
 
-.menu-soon {
-  margin-top: 1rem;
-}
+export const HeaderSoon = styled.div`
+margin-top: 1rem;
+`
 
-.menu-items {
-  display: flex;
-  margin-top: -320%;
-}
+export const HeaderItems = styled.div`
+display: flex;
+margin-top: -320%;
 
 ul li {
   list-style: none;
 }
 
-.menu-button {
+`
+
+export const Button = styled.button`
   padding: 8px;
   width: 100px;
   border: none;
@@ -34,9 +38,12 @@ ul li {
   border-radius: 10px;
   font-weight: 600;
   margin-bottom: 1rem;
-}
+  cursor: pointer;
 
-.menu-button:hover {
+  &:hover {
   background-color: #d9d9d9;
   color: black;
 }
+
+`
+

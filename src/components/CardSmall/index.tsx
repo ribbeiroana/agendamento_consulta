@@ -1,11 +1,13 @@
 import React from 'react';
-import './style.css';
+import { Container } from './style';
 
 
 const CardSmall = () => {
   return (
-      <div className='card-container-small'>
-      </div>
+      <Container>
+        <h3 className='title-card-small'>12</h3>
+        <p>Agendamentos</p>
+      </Container>
   )
 }
 

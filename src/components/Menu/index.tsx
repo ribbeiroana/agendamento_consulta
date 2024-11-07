@@ -1,28 +1,29 @@
 import React from 'react';
-import './style.css';
+import { Header, HeaderSoon, HeaderItems, Button } from './style';
+
 
 import { FaUserCircle } from "react-icons/fa";
-import { IoHome,  IoFileTrayFull } from "react-icons/io5";
+import { IoHome, IoFileTrayFull } from "react-icons/io5";
 
 const Menu = () => {
   return (
-    <div className="menu">
+    <Header>
 
-      <div className="menu-soon">
+      <HeaderSoon>
         <img src="#" alt="logo" />
-      </div>
+      </HeaderSoon>
 
-      <nav className="menu-items">
+      <HeaderItems>
         <ul>
-        <li><FaUserCircle /> Perfil</li> 
+          <li><FaUserCircle /> Perfil</li>
           <li><IoHome /> Inicio</li>
           <li><IoFileTrayFull /> Consulta</li>
         </ul>
-      </nav>
+      </HeaderItems>
 
-      <button className='menu-button'>Sair</button>
+      <Button>Sair</Button>
 
-    </div>
+    </Header>
   )
 }
 

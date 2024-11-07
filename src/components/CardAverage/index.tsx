@@ -1,11 +1,8 @@
 import React from 'react';
-import './style.css';
-
-
+import { Container } from './style';
 const CardAverage = () => {
   return (
-      <div className='card-container-average'>
-      </div>
+    <Container/>
   )
 }
 
