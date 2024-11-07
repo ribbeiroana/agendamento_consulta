@@ -1,14 +1,14 @@
 import React from 'react';
-import './style.css'
+import { Container, CardBig } from './style';
 import Menu from '../../components/Menu';
 
 const Horario = () => {
   return (
-    <div className="container">
+    <Container>
       <Menu />
       <h1>Horários</h1>
-      <div className="card-big"></div>
-    </div>
+      <CardBig />
+    </Container>
   )
 }
 

@@ -25,6 +25,13 @@ margin-top: -320%;
 
 ul li {
   list-style: none;
+  cursor: pointer;
+  padding: 10px;
+
+  &:hover {
+    color: #d9d9d9;
+
+  }
 }
 
 `

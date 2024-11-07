@@ -1,22 +1,25 @@
 import React from 'react';
-import './style.css'
+import { Container, ContainerContent, CardSmall, CardBig } from './style';
 import Menu from '../../components/Menu';
 import { FaPlusCircle } from "react-icons/fa";
 
 const Consultas = () => {
   return (
-    <div className="container">
+    <Container>
       <Menu />
-      <div className="container-content">
-        <div className="card-small">
+      <ContainerContent>
+        <CardSmall>
           <FaPlusCircle className='icon' />
           <h4 className='text-card-small'>Agendar nova consulta</h4>
-        </div>
-      </div>
-      <div className="card-big">
+          </CardSmall>
+        </ContainerContent>
+
+      <CardBig>
         <h3 className='titulo-card-big'>Histórico de Consultas</h3>
-      </div>
-    </div>
+        </CardBig>
+
+    </Container>
+
   )
 }
 

@@ -1,11 +1,8 @@
 import React from 'react';
-import { Container, Cards } from './style';
+import { Container, Cards, CardSmall, CardAverage, CardBig } from './style';
 
 import Menu from '../../components/Menu';
 import Search from '../../components/Search';
-import CardSmall from '../../components/CardSmall';
-import CardAverage from '../../components/CardAverage';
-import CardBigHome from '../../components/CardBigHome';
 const HomeUser = () => {
   return (
     <Container>
@@ -14,11 +11,17 @@ const HomeUser = () => {
       <h2>Olá</h2>
 
       <Cards>
-        <CardSmall />
+
+        <CardSmall>
+        <h3 className='title-card-small'>12</h3>
+        <p>Agendamentos</p>
+        </CardSmall>
+
         <CardAverage />
-      </Cards>
+
+      </Cards> 
       
-      <CardBigHome />
+      <CardBig />
     </Container>
   )
 }
