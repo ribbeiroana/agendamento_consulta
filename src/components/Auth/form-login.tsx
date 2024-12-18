@@ -1,5 +1,5 @@
 import React from 'react';
-import './style.css';
+import './style.scss';
 import { FaUser, FaLock } from "react-icons/fa";
 
 const LoginForm = () => {
@@ -17,17 +17,12 @@ const LoginForm = () => {
           </div>
 
           <div className="remember-forgot">
-            <label><input type="checkbox"/>Remember me</label>
-            <a href="#">Forgot password?</a>
+            <label><input type="checkbox"/>Lembra me</label>
+            <a href="#">Esqueceu a senha?</a>
           </div>
 
           <button type="submit">Login</button>
-
-          <div className="register-link">
-            <p>Don't have an account? <a href="#">Register</a></p>
-          </div>
         </form>
-
       </div>
   )
 }
